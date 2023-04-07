@@ -42,12 +42,15 @@ li{
 .section-1{
 	margin-left: 140px;
 	margin-top: 25px;
+	width: 1160;
+	height: 350;
 }
 
 .trending{
     background-color: white;
     width: 360px;
     height: 350px;
+    display: inline-block;
 }
 
 body{
@@ -64,13 +67,16 @@ body{
 	text-align: left;
 	color: #202124;
 	margin-bottom: 40px;
+	display: inline-block;
+	width: 1160px;
 }
 
-.dolore-magna{
-	width: 360px;
+.dolore-magna {
+
+
+	display: inline-block;
+	width: 300px;
 	height: 180px;
-/*	width: 100%;*/
-	overflow: hidden;
 
 }
 
@@ -86,6 +92,8 @@ body{
 	height: 38px;
 	margin-bottom: 10px;
 	margin-top: 66px;
+	display: inline-block;
+}
 }
 
 /*.clock-line{
@@ -100,10 +108,11 @@ body{
 	}*/
 
 .clock{
-	display: inline-block;
 	position: absolute;
 	width: 16px;
 	height: 16px;
+	
+}
 	
 }
 
@@ -120,10 +129,127 @@ body{
 	color: #a6adb4;
 	
 }
+	
+}
 
 .trending-sec{
 	padding-left: 40px;
 	padding-right: 40px;
 	vertical-align: middle;
+	display: inline-block;
+}
+/* Footer */
+
+.f-1 {
+
 }
 
+.container-2 {
+	width: 1903px;
+	display: inline-block;
+}
+
+.ft-parrent {
+	display: inline-block;
+	position: relative;
+}
+
+#footerbanner {
+	width: 1440px;
+	height: 200px;
+	display: inline-block;
+	position: absolute;
+	top: 1540px;
+	left: 0px;
+
+}
+
+.footer-logo {
+	width: 35px;
+	height: 10px;
+	display: inline-block;
+	position: absolute;
+	top: 1599px;
+	left: 142px;
+}
+
+.navigation {
+
+}
+
+.f-list1 {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 11px;
+	color: #cbd0d3;
+	margin-bottom: 11px;
+	position: relative;
+	top: 1599px;
+	left: 268px;
+}
+
+.f-list2 {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 11px;
+	color: #cbd0d3;
+	margin-bottom: 11px;
+	position: relative;
+	top: 1511px;
+	left: 401px;
+}
+
+.f-list3 {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 11px;
+	color: #cbd0d3;
+	margin-bottom: 11px;
+	position: relative;
+	top: 1423px;
+	left: 549px;
+}
+
+.p-footer {
+	width: 244px;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 11px;
+	color: #cbd0d3;
+	display: inline-block;
+	position: absolute;
+	top: 1602px;
+	left: 733px;
+}
+
+#instagram {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 1596px;
+	left: 1141px;
+}
+
+#twitter {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 1596px;
+	left: 1189px;
+}
+
+#fb {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 1596px;
+	left: 1237px;
+}
+
+#globe {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 1596px;
+	left: 1285px;
+}
